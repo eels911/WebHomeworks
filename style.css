@@ -13,13 +13,67 @@ body{
     color: #ffffff;
 }
 
-#block1 h1{
-    font-family: "Open Sans";
-    font-weight: 800;
+.wrap{
+    width: 100%;
+    max-width: 1240px;
+    padding-top: 53px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 72px;
+    margin: 0 auto;
+}
+.title{
+    padding-left: 43px;
+}
+.human{
+    width: 1072px;
+    height: 669px;
+    margin: 21px 0 auto;
+    /*переделать с позиционированием*/
+    background-image: url("./assets/human.png") ;
+    padding-top: 250px;
+}
+.choose{
+    /*font-family: Open Sans;*/
+    font-style: normal;
+    font-weight: bold;
     font-size: 56px;
+    line-height: 76px;
     text-align: center;
+    letter-spacing: 0.845em;
     text-transform: uppercase;
 }
+h1{
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 128px;
+    line-height: 154px;
+    text-align: center;
+}
+.flutter{
+    margin-top: -33px;
+}
+.both{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    margin-top: -30px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.37em;
+    text-transform: uppercase;
+}
+/*#block1 h1{*/
+/*    font-family: "Open Sans";*/
+/*    font-weight: 800;*/
+/*    font-size: 56px;*/
+/*    text-align: center;*/
+/*    text-transform: uppercase;*/
+/*}*/
 
 h2{
     font-family: "Open Sans";
@@ -36,3 +90,4 @@ h2{
 #block3 h2, #block5 h2{
     color: #ffffff;
 }
+
