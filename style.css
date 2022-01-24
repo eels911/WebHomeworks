@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -8,9 +9,16 @@ body{
     font-size: 16px;
 }
 
-h1{
-    padding: 25px;
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+header h5{
+    color: white;
+}
+
 #block1{
     height: 794px;
     width: 100%;
@@ -28,13 +36,12 @@ h1{
     padding-bottom: 72px;
     margin: 0 auto;
 }
-
 table{
     width: 100%;
 }
-.title{
-    padding-left: 43px;
-}
+/*.title{*/
+/*    padding-left: 43px;*/
+/*}*/
 .human{
     width: 1072px;
     height: 669px;
@@ -42,9 +49,46 @@ table{
     /*переделать с позиционированием*/
     background-image: url("./assets/human.png") ;
     padding-top: 250px;
+    position: relative;
 }
+
+.osicons p{
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+.appleimg{
+    position: relative;
+    left: 18px;
+}
+.appleimg p{
+    position: relative;
+    top: 7px;
+    left: 2px;
+}
+.androidimg p{
+    position: relative;
+    right: 2px;
+}
+.androidimg{
+    position: relative;
+    left: 6px;
+}
+.osicons{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    bottom: 107px;
+
+}
+
 .choose{
-    /*font-family: Open Sans;*/
+    font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 56px;
@@ -62,8 +106,28 @@ h1{
     text-align: center;
 }
 .flutter{
+    font-family: 'Fira Sans', sans-serif;
     margin-top: -33px;
+    font-style: normal;
+
 }
+.title-wrap{
+    position: absolute;
+    text-align:  center;
+    left: 50%;
+    bottom: 72px;
+    margin-left: -257px;
+}
+.title{
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*position: relative;*/
+    /*bottom: 140px;*/
+    /*color: white;*/
+  margin-bottom: 63px;
+
+}
+
 .both{
     font-family: Open Sans;
     font-style: normal;
